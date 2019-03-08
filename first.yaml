@@ -9,6 +9,8 @@
       - sham
       - ram
       - raman
+      - jackie
+      - chan
   tasks:
     - user:
         name: "{{item}}"
