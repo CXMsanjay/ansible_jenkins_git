@@ -1,0 +1,17 @@
+---
+- hosts: 192.168.0.6
+  become: yes
+  become_user: root
+  vars:
+    someuser:
+      - raj
+      - ravi
+      - sham
+      - ram
+      - raman
+  tasks:
+    - user:
+        name: "{{item}}"
+        state: present
+      with_items: "{{someuser}}"
+...
