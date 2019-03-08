@@ -11,6 +11,8 @@
       - raman
       - jackie
       - chan
+      - roman
+      - toman
   tasks:
     - user:
         name: "{{item}}"
