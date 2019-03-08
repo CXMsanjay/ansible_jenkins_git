@@ -13,6 +13,8 @@
       - chan
       - roman
       - toman
+      - abhi
+      - manyu
   tasks:
     - user:
         name: "{{item}}"
